@@ -1,0 +1,15 @@
+id                              INT             NOT_NULL         UNSIGNED
+model                           VARCHAR(255)    NOT_NULL
+brand                           VARCHAR(100)    NOT_NULL
+price_without_optionals         DECIMAL(10,2)   NOT_NULL         UNSIGNED            
+price_full_optionals            DECIMAL(10,2)   NULL             UNSIGNED
+year_of_manufactoring           YEAR            NOT_NULL
+color                           VARCHAR(100)    NOT_NULL
+engine_size                     SMALLINT        NOT_NULL         UNSIGNED
+horsepower                      SMALLINT        NOT_NULL         UNSIGNED
+fuel                            VARCHAR(100)    NOT_NULL         
+battery_capacity                SMALLINT        NULL         
+status(used/new)                VARCHAR(100)    NOT_NULL
+aviability                      DATE            NULL
+category                        VARCHAR(255)    NULL
+description                     TEXT            NULL
